@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgba(68, 72, 71, 0.433);
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-weight: 900;
+}
+#calculator{
+    border: 1px solid rgb(131, 115, 115);
+    border-radius: 5px;
+    width: 320px;
+    background-color: rgb(112, 226, 188);
+    padding: 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#display{
+    margin: 10px;
+    width: 89%;
+    font-size: 40px;
+    padding: 5px;
+    background-color: rgb(237, 194, 143);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.button-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.button{
+    width: 73px;
+    height: 70px;
+    margin: 5px;
+    background-color: rgb(148, 154, 235);
+    color: rgb(14, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: white;
+    font-size: large;
+}
